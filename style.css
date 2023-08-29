@@ -634,6 +634,10 @@ span{
         font-size: 50%;
     }
 
+    .home{
+        background:transparent;
+    }
+
     .home-content h1{
         display: flex;
         flex-direction: column;
@@ -650,8 +654,9 @@ span{
 }
 
 @media(max-width: 460px){
-    .home-content h1{
-        font-size: 5.2rem;
+
+    .home{
+        background:transparent;
     }
 
     .contact form .input-box .input-field{
